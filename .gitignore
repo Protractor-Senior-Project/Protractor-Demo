@@ -128,3 +128,47 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Electron build output
+dist/
+out/
+build/
+
+# Compiled binaries
+*.asar
+*.dll
+*.exe
+*.app
+*.dmg
+*.deb
+*.rpm
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Electron cache and temporary files
+.cache/
+.temp/
